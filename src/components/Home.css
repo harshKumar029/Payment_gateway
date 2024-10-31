@@ -1,0 +1,40 @@
+.main {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100vw; 
+    height: 100vh; 
+    z-index: 9999; 
+}
+
+.sidebar {
+    background-color: #954242; /* Adjust the color to match your design */
+    height: 100vh;
+    padding: 1rem;
+  }
+  
+  .navbar-brand {
+    color: #fff; /* Adjust the color to match your design */
+    margin-bottom: 2rem; /* Spacing under the brand */
+  }
+  
+  .nav-item {
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 0.5rem; /* Spacing between nav items */
+  }
+  
+  .nav-item:hover {
+    color: #fff;
+  }
+  
+  .badge-success {
+    background-color: #5cb85c; /* Adjust the color to match your design */
+    margin-left: 0.5rem; /* Spacing between nav item text and badge */
+  }
+  
+  .fa-bars {
+    cursor: pointer; /* Makes the icon look clickable */
+  }
+  
+  /* You may need additional CSS for other states or responsive design */
+  

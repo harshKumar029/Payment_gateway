@@ -1,0 +1,23 @@
+/* BatchPayouts.css */
+
+.scroll-container {
+    overflow-y: scroll;
+    max-height: 70vh;
+  }
+  
+  /* For Firefox */
+  .scroll-container {
+    scrollbar-width: thin;
+    scrollbar-color: #2c406b91 transparent; /* Adjust the color as needed */
+  }
+  
+  /* For WebKit browsers (Chrome, Safari) */
+  .scroll-container::-webkit-scrollbar {
+    width: 5px; /* Adjust the width as needed */
+  }
+  
+  .scroll-container::-webkit-scrollbar-thumb {
+    background-color: #d4d4d4; /* Adjust the color as needed */
+    border-radius: 5px;
+  }
+  
