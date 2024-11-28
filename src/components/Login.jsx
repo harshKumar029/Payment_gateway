@@ -51,7 +51,7 @@ const Login = () => {
       </>,
       {
         position: "top-right",
-        autoClose: 10000, // Longer duration
+        autoClose: 13000, // Longer duration
         hideProgressBar: true,
         closeOnClick: true,
         pauseOnHover: true,
