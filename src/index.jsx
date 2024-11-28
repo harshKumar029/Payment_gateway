@@ -8,12 +8,12 @@ import { UserAuthContextProvider } from "./context/UserAuthContext";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
+  // <React.StrictMode>
     <UserAuthContextProvider>
       <Router>
         <App />
       </Router>
     </UserAuthContextProvider>
 
-  </React.StrictMode>
+  // </React.StrictMode>
 );

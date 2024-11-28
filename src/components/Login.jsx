@@ -40,6 +40,28 @@ const Login = () => {
     progress: undefined,
     theme: "dark",
   });
+  useEffect(() => {
+    Tester();
+  }, []);
+
+  const Tester = () => {
+    toast.info(
+      <>
+        Test NO:+19006318777 <br /> Otp: 123456
+      </>,
+      {
+        position: "top-right",
+        autoClose: 10000, // Longer duration
+        hideProgressBar: true,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "dark",
+      }
+    );
+  };  
+
 
   const getOtp = async (e) => {
     e.preventDefault();
@@ -141,10 +163,12 @@ const Login = () => {
     }
   }
 
-
   return (
     // items-center justify-center
     <div style={{ backgroundImage: `url(${backgroundimg})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}>
+      <div>
+        <ToastContainer />
+      </div>
       <div className="flex flex-col max-w-[500px] h-screen bg-[#25282E] text-white  border-r-2 border-[#32353B]">
         <div className=" mx-auto mt-[5rem]">
           <h1 className=" text-[22px] font-[500] ">Redux Pay</h1>
