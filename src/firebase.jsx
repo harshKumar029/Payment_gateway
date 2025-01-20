@@ -20,12 +20,18 @@ import { getStorage } from "firebase/storage"
 // };
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCq-atewAgrTtI2UOYAWIOuCm1p3Eertf8",
-  authDomain: "reduxpay-fa116.firebaseapp.com",
-  projectId: "reduxpay-fa116",
-  storageBucket: "reduxpay-fa116.appspot.com",
-  messagingSenderId: "669412000166",
-  appId: "1:669412000166:web:8ae1ab28271099a69c4f67"
+  // apiKey: "AIzaSyCq-atewAgrTtI2UOYAWIOuCm1p3Eertf8",
+  // authDomain: "reduxpay-fa116.firebaseapp.com",
+  // projectId: "reduxpay-fa116",
+  // storageBucket: "reduxpay-fa116.appspot.com",
+  // messagingSenderId: "669412000166",
+  // appId: "1:669412000166:web:8ae1ab28271099a69c4f67"
+  apiKey: "AIzaSyB7Ngk1I7oOmrxu78PxWiYWF03roOYiR7s",
+  authDomain: "reduxpay1.firebaseapp.com",
+  projectId: "reduxpay1",
+  storageBucket: "reduxpay1.firebasestorage.app",
+  messagingSenderId: "544272083074",
+  appId: "1:544272083074:web:51417d5df41f4544ecac9b"
 };
 
 // Initialize Firebase
